@@ -38,7 +38,6 @@ module board;
     binaryToESeg    disp     (count[3],count[2],count[1],count[0],eSeg);
 
     initial begin
-	$dumpfile("board.vcd");
 	$dumpvars(0,board);
 	#1000 $finish;
     end
